@@ -84,7 +84,7 @@ export function Header() {
             variant="outline"
             size="sm"
             className="hidden md:flex items-center gap-2 border-primary text-primary hover:bg-primary/10"
-            onClick={() => window.open("mailto:shubbham840@gmail.com", "_blank")}
+            onClick={() => window.open("mailto:shubhamdandge.dev@gmail.com", "_blank")}
           >
             <span>Get in Touch</span>
             <ExternalLink className="h-4 w-4" />
@@ -148,7 +148,7 @@ export function Header() {
                   className="w-full mt-2 flex items-center justify-center gap-2"
                   onClick={() => {
                     if (typeof window !== "undefined") {
-                      window.open("mailto:shubbham840@gmail.com", "_blank");
+                      window.open("mailto:shubhamdandge.dev@gmail.com", "_blank");
                     }
                     setIsOpen(false);
                   }}

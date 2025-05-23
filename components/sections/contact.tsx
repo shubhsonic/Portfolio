@@ -34,7 +34,7 @@ export default function Contact() {
   // useEffect to trigger the mailto link after the form status is 'success'
   useEffect(() => {
     if (formStatus === 'success') {
-      const mailtoLink = `mailto:shubbham840@gmail.com?subject=Contact from ${name}&body=${message}`;
+      const mailtoLink = `mailto:shubhamdandge.dev@gmail.com?subject=Contact from ${name}&body=${message}`;
       window.open(mailtoLink);
       setTimeout(() => {
         setName('');
@@ -169,7 +169,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-gray-500 dark:text-gray-400 text-sm">Email</p>
-                    <p className="font-medium">shubbham840@gmail.com</p>
+                    <p className="font-medium">shubhamdandge.dev@gmail.com</p>
                   </div>
                 </motion.div>
 
