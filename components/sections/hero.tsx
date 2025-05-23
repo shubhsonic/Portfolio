@@ -1,0 +1,105 @@
+"use client";
+
+import { motion } from 'framer-motion';
+import { TypeAnimation } from 'react-type-animation';
+import { Button } from '@/components/ui/button';
+import { Github, Linkedin, Twitter, Instagram } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+import dynamic from 'next/dynamic';
+
+// Dynamically import Lottie with SSR disabled
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
+
+import devAnimation from "@/public/Developer.json"
+
+export function HeroSection() {
+  return (
+    <section className="min-h-[calc(100vh-4rem)] flex items-center justify-center mt-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          className="space-y-6"
+        >
+          <h1 className="text-4xl font-bold tracking-tight lg:text-5xl">
+            Hi, I'm{' '}
+            <span className="text-primary">
+              <TypeAnimation
+                sequence={[
+                  'Shubham',
+                  1000,
+                  'a Developer',
+                  1000,
+                  'an Engineer',
+                  1000,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+              />
+            </span>
+          </h1>
+          <p className="text-xl text-muted-foreground">
+            Engineer building fast, accessible digital products that put users first—where performance and design go hand in hand.
+          </p>
+          <div className="flex gap-4">
+            <Link href="Shubham Dandge_Resume.pdf" target='_blank'> {/* todo */}
+              <Button size="lg">
+                Download CV
+              </Button>
+            </Link>
+            <Link href="#contact">
+              <Button size="lg" variant="outline">
+                Contact Me
+              </Button>
+            </Link>
+          </div>
+          <div className="flex space-x-4">
+            <motion.a
+              href="https://github.com/shubhsonic?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-800 hover:bg-gray-700 p-4 rounded-lg transition-all duration-300"
+              whileHover={{ y: -5, scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <Github className="h-6 w-6 text-white" />
+            </motion.a>
+            <motion.a
+              href="www.linkedin.com/in/shubham-dandge-055a6a252"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-800 hover:bg-gray-700 p-4 rounded-lg transition-all duration-300"
+              whileHover={{ y: -5, scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <Linkedin className="h-6 w-6 text-white" />
+            </motion.a>
+            <motion.a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-800 hover:bg-gray-700 p-4 rounded-lg transition-all duration-300"
+              whileHover={{ y: -5, scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <Twitter className="h-6 w-6 text-white" />
+            </motion.a>
+          </div>
+        </motion.div>
+
+        {/* Dynamically import Lottie animation only on the client side */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 0.79 }}
+          transition={{ duration: 0.5 }}
+          className="relative aspect-square"
+        >
+          <Lottie animationData={devAnimation} loop={true} className="h-full w-full" />
+        </motion.div>
+      </div>
+    </section>
+  );
+}
