@@ -68,7 +68,7 @@ export function HeroSection() {
               <Github className="h-6 w-6 text-white" />
             </motion.a>
             <motion.a
-              href="www.linkedin.com/in/shubham-dandge-055a6a252"
+              href="https://www.linkedin.com/in/shubham-dandge-055a6a252/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-800 hover:bg-gray-700 p-4 rounded-lg transition-all duration-300"
