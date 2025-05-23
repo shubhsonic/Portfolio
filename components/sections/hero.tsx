@@ -45,7 +45,7 @@ export function HeroSection() {
             Engineer building fast, accessible digital products that put users first—where performance and design go hand in hand.
           </p>
           <div className="flex gap-4">
-            <Link href="Shubham Dandge_Resume.pdf" target='_blank'> {/* todo */}
+            <Link href="Shubham Dandge_public.pdf" target='_blank'> {/* todo */}
               <Button size="lg">
                 Download CV
               </Button>
