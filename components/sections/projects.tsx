@@ -59,7 +59,7 @@ export default function Projects(): ReactElement {
   ];
 
   const categories = [
-    // { key: 'all', label: 'Projects' },
+    { key: 'all', label: 'Projects' },
   ];
 
   const container = {
