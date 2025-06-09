@@ -141,7 +141,7 @@ export default function About() {
                                         <span className="inline-block bg-purple-500/20 text-purple-400 px-3 py-1 rounded-full text-sm mb-2">{item.year}</span>
                                         <h3 className="text-xl font-semibold">{item.title}</h3>
                                         <p className="text-purple-400 mb-2">{item.company}</p>
-                                        <p className="text-gray-400">{item.description}</p>
+                                        {/* <p className="text-gray-400">{item.description}</p> */}
                                     </motion.div>
                                 ))}
                             </div>
