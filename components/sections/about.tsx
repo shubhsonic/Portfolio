@@ -41,15 +41,13 @@ export default function About() {
     const timeline = [
         {
             year: "Feb 2024 - Apr 2025",
-            title: "Teaching Assistant",
+            title: "Software Engineer",
             company: "Edureka",
-            description: "Provided timely solutions to queries related to front-end and back-end development. Collaborated with the instruction team to ensure a smooth, productive and engaging learning experience for interns."
         },
         {
             year: "Jan 2023 - Oct 2023",
             title: "Full-stack Developer Intern",
             company: "Edureka",
-            description: "Awarded Super Intern Certificate for Best Performance, Completed an hands-on internship focused on full-stack development."
         }
     ];
 
@@ -115,14 +113,13 @@ export default function About() {
                         >
                             <h2 className="text-3xl text-white font-bold mb-6">My Journey</h2>
                             <p className="text-gray-300 mb-6">
-                                As a dedicated and innovative software engineer, I specialize in crafting high-quality digital experiences that balance functionality, performance, and design. My journey into the world of software development began during my undergraduate engineering studies, where I quickly developed a passion for creating both intuitive user interfaces and scalable, efficient backend systems. That early curiosity has since evolved into a full-fledged commitment to building technology that genuinely serves its users.
+                               As a passionate software engineer, I specialize in building modern, real-time web applications that are both scalable and user-friendly. My interest in software development took shape during my engineering studies in Electronics and Telecommunication, and has since grown into a hands-on journey of creating performant digital products across the stack.
                             </p>
                             <p className="text-gray-300 mb-6">
-                                Currently, my focus lies in developing accessible, user-first applications that prioritize inclusivity and speed—solutions that not only meet rigorous technical standards but also deliver meaningful and enjoyable user experiences. I approach every project with a product mindset, ensuring that usability and design are considered as integral as clean code and architecture.
+                                My recent work includes building interactive, production-ready applications using technologies like React.js, Next.js, Node.js, MongoDB, and Socket.io. Whether developing user interfaces or designing backend APIs, I focus on writing clean, efficient code and deploying solutions that deliver seamless experiences and real-world value.
                             </p>
                             <p className="text-gray-300">
-                                Beyond engineering, I’m deeply committed to the developer community. I actively mentor junior developers, helping them grow their skills and confidence. When I'm not writing code, I can usually be found immersed in literature or out exploring nature—both of which fuel my creativity and drive to solve complex problems in thoughtful ways.I'm always eager to collaborate on ambitious projects that challenge the norms and explore new possibilities on the web. Let’s build something impactful together.
-
+                                 Outside of coding, I enjoy experimenting with emerging web tools, refining UI/UX details, and bringing new ideas to life through side projects. I’m always open to collaborating on meaningful software that pushes boundaries and solves real problems—let’s build something impactful together.
                             </p>
                         </motion.div>
 

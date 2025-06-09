@@ -38,7 +38,7 @@ export default function Projects(): ReactElement {
     },
     {
       id: 2,
-      title: "Spotify-Chat-App",
+      title: "Music-Chat-App",
       description: "A live music streaming app where you can connect with friends, chat in real time, and discover what songs they’re currently enjoying.",
       image: "/Spotify-project-thumbnail.png",
       tags: ["Reactjs", "Clerk", "Cloudinary", "socket.io", "zustand"],
