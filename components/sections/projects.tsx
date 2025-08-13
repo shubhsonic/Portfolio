@@ -48,6 +48,16 @@ export default function Projects(): ReactElement {
     },
     {
       id: 3,
+      title: "AI-Chat-App",
+      description: "Built a real-time AI-powered chat application enabling users to interact with an AI assistant similar to ChatGPT",
+      image: "/AI-Chat-App.png",
+      tags: ["Ollama", "Reactjs", "Node", "Express", "socket.io"],
+      category: "web",
+      url: "https://github.com/shubhsonic/pingpongai",
+      github: "https://github.com/shubhsonic/pingpongai"
+    },
+    {
+      id: 4,
       title: "Cab-Booking-App",
       description: "(in-dev)A real-time ride-hailing app with location sharing powered by the Google Maps API and OTP verification handled via Socket.IO.",
       image: "/Cab-Booking.png",
