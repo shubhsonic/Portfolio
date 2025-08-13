@@ -50,7 +50,7 @@ export default function About() {
         //     company: "Edureka",
         // },
         {
-            year: "Jan 2023 - Oct 2023",
+            year: "Jan 2023 - Nov 2023",
             title: "Full-stack Developer Intern",
             company: "Edureka",
         }
