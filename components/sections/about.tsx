@@ -27,23 +27,28 @@ export default function About() {
     };
 
     const skills = [
-        { name: "Data Structures" },
+        { name: "Data Structures And Alogritms" },
         { name: "Low Level Design" },
+        { name: "SOLID Principles" },
         { name: "JavaScript" },
         { name: "React" },
         { name: "Node.js" },
         { name: "TypeScript" },
+        { name: "C++" },
         { name: "Next.js" },
         { name: "MongoDB" },
         { name: "Socket.io" },
+        { name: "Three.js" }
+        { name: "Redux" }
+        { name: "Zustand" }
     ];
 
     const timeline = [
-        {
-            year: "Feb 2024 - Apr 2025",
-            title: "Software Engineer",
-            company: "Edureka",
-        },
+        // {
+        //     year: "Feb 2024 - Apr 2025",
+        //     title: "Software Engineer",
+        //     company: "Edureka",
+        // },
         {
             year: "Jan 2023 - Oct 2023",
             title: "Full-stack Developer Intern",
