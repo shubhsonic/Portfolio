@@ -38,8 +38,8 @@ export default function About() {
         { name: "Next.js" },
         { name: "MongoDB" },
         { name: "Socket.io" },
-        { name: "Three.js" }
-        { name: "Redux" }
+        { name: "Three.js" },
+        { name: "Redux" },
         { name: "Zustand" }
     ];
 
