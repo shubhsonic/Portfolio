@@ -118,13 +118,13 @@ export default function About() {
                         >
                             <h2 className="text-3xl text-white font-bold mb-6">My Journey</h2>
                             <p className="text-gray-300 mb-6">
-                               As a passionate software engineer, I specialize in building modern, real-time web applications that are both scalable and user-friendly. My interest in software development took shape during my engineering studies in Electronics and Telecommunication, and has since grown into a hands-on journey of creating performant digital products across the stack.
+                               Super Intern Awardee at Edureka with hands-on experience in building scalable full-stack apps using React.js, Next.js, Node.js, Express.js, MongoDB, MySQL, Zustand, and Socket.io. Solved 500+ DSA problems on LeetCode and GFG. Strong in DSA, OOP, Low Level Design, Object Oriented Analysis Design and SOLID principles. Passionate about clean architecture, performance optimization, and creating responsive, maintainable applications.
                             </p>
                             <p className="text-gray-300 mb-6">
-                                My recent work includes building interactive, production-ready applications using technologies like React.js, Next.js, Node.js, MongoDB, and Socket.io. Whether developing user interfaces or designing backend APIs, I focus on writing clean, efficient code and deploying solutions that deliver seamless experiences and real-world value.
+                                My recent work includes where I built a real-time AI-powered chat application that allows users to interact with an AI assistant similar to ChatGPT. I delivered an end-to-end solution using React.js, JavaScript, Node.js, and Express.js while integrating the Ollama Gemma model to provide intelligent and context-aware responses. To ensure smooth communication, I engineered real-time message streaming with Socket.io, which reduced AI response latency and improved the overall user experience. I also implemented React-Redux for predictable state management, allowing the UI to remain responsive even under high message throughput. Additionally, I enhanced the AI calls so that after each user message, the AI generated replies by considering the entire conversation history, resulting in more coherent and contextually relevant interactions.
                             </p>
                             <p className="text-gray-300">
-                                 Outside of coding, I enjoy experimenting with emerging web tools, refining UI/UX details, and bringing new ideas to life through side projects. I’m always open to collaborating on meaningful software that pushes boundaries and solves real problems—let’s build something impactful together.
+                                 Outside of coding, I enjoy reading books on leadership and spending time on track and field. I’m always open to collaborating on meaningful software that pushes boundaries and solves real problems—let’s build something impactful together.
                             </p>
                         </motion.div>
 
@@ -161,7 +161,7 @@ export default function About() {
                                 <div className="mb-6">
                                     <h3 className="text-xl font-semibold">BTech in Electronics and Telecommunication</h3>
                                     <p className="text-purple-400">Atharva College Of Engineering</p>
-                                    <p className="text-gray-400">2019 - 2023</p>
+                                    <p className="text-gray-400">2019 - 2022</p>
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-semibold">Diploma in Electronics and Telecommunication</h3>
