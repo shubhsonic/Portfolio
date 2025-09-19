@@ -44,11 +44,6 @@ export default function About() {
     ];
 
     const timeline = [
-        // {
-        //     year: "Feb 2024 - Apr 2025",
-        //     title: "Software Engineer",
-        //     company: "Edureka",
-        // },
         {
             year: "Aug 2022 - Apr 2023",
             title: "Full-stack Developer Intern",
