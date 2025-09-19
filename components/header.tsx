@@ -53,7 +53,6 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center">
           <a className="flex pl-4 items-center space-x-2 mr-8" href="/">
-            <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold">S</div>
             <span className="font-bold text-lg">
               Shubham
             </span>
